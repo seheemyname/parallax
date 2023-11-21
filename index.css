@@ -46,6 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* 
+html{
+    scroll-behavior: smooth;
+} */
 
 body {
     height: 200vh;
@@ -59,6 +63,11 @@ header{
     color: #b8e1ee;
     display: flex;
     align-items: center;
+}
+
+a{
+    color: unset;
+    text-decoration: unset;
 }
 
 .button-in-header{
@@ -87,4 +96,41 @@ header{
 
 #main-image{
     min-width: 1000px;
+}
+#document-title {
+    color: #b8e1ee;
+    font-size: 170%;
+    font-weight: 300;
+    letter-spacing: 10px;
+    margin-bottom: 40px;
+}
+
+#mountain-tag-wrapper{
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    gap: 50px;
+}
+
+#main-content-wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mountain-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mountain-content-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 325px;
+    background-color: #b8e1ee;
+    color: #04120c;
 }
